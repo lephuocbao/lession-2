@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 1440px;
+    height: 3992px;
+    background: #FFFFFF;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+.Header-4{
+    height: 700px;
+    width: 1440px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    position: static;
+    background: #FAFAFA;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.5), 100%), url(#hero-cover-5.jpg), #FFFFFF;
+
+}
+.navbar-style-2 .navbar-light{
+    position: absolute;
+    width: 1322px;
+    height: 91px;
+    left: calc(50% - 1322px/2);
+    top: 0px;
+}
+.collapse .navbar-collapse{
+    position: absolute;
+    width: 815px;
+    height: 58px;
+    left: calc(50% - 815px/2 + 110.5px);
+    top: 16px;
+}
+.navbar-nav-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 280px;
+    height: 24px;
+    left: 0px;
+    top: calc(50% - 24px/2)
+}
+li{
+    position: static;
+    flex: none;
+    background: #FFFFFF;
+}
+a{
+    position: absolute;
+}
+.link{
+    position: absolute;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.navbar-nav-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 300px;
+    height: 52px;
+    right: 0px;
+    top: calc(50% - 52px/2);
+}
+.nav-item-1{
+    position: static;
+    width: 41px;
+    height: 22px;
+    left: 0px;
+    top: 15px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 45px;
+}
+.nav-item-1>a{
+    position: absolute;
+    width: 41px;
+    height: 22px;
+    left: 0px;
+    top: 15px;
+}
+.nav-item-1>a>.btn-text{
+    position: absolute;
+    width: 41px;
+    height: 22px;
+    left: calc(50% - 41px/2 - 129.5px);
+    top: calc(50% - 22px/2);
+}
+.btn-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.nav-item-2{
+    position: static;
+    width: 214px;
+    height: 52px;
+    left: 86px;
+    top: 0px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 45px;
+}
+.primary-color{
+    background: #23A6F0;
+    border-radius: 5px;
+}
+button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 25px;
+}
+button>.btn-text{
+    position: static;
+    left: 11.68%;
+    right: 24.3%;
+    top: 28.85%;
+    bottom: 28.85%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 15px;
+}
+button>.icn>.arrow-right>.icn-xs>.Vector{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+.navbar-brand{
+    position: absolute;
+    width: 187px;
+    height: 58px;
+    left: calc(50% - 187px/2 - 431.5px);
+    top: calc(50% - 58px/2 + 0.5px);
+}
+h3{
+    position: absolute;
+    height: 32px;
+    width: 145px;
+    left: 0px;
+    top: 13px;
+    border-radius: nullpx;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+.col-md-6-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 510px;
+    height: 596px;
+    left: calc(50% - 510px/2 + 269.5px);
+    top: 0px;
+/* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 30px;
+}
+#png-cover{
+    position: static;
+    width: 443px;
+    height: 681px;
+    left: 33.5px;
+    top: 0px;
+    background: url(png-cover-1.png.png);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+.col-md-6-1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 509px;
+    height: 422px;
+    left: calc(50% - 509px/2 - 270px);
+    top: 87px;
+/* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 30px;
+}
+h1{
+    position: static;
+    width: 509px;
+    height: 240px;
+    left: 0px;
+    top: 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+/* or 138% */
+    letter-spacing: 0.2px;
+/* light-text-color */
+    color: #FFFFFF;
+    margin: 35px 0px;
+}
+h4{
+    position: static;
+    width: 376px;
+    height: 60px;
+    left: 0px;
+    top: 275px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+/* or 150% */
+    letter-spacing: 0.2px;
+/* light-text-color */
+    color: #FFFFFF;
+    margin: 35px 0px;
+}
+.cta{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 349px;
+    height: 52px;
+    left: 0px;
+    top: 370px;
+}
+.btn-round{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 36px;
+    border-radius: 37px;
+    position: static;
+    width: 185px;
+    height: 52px;
+    left: 0px;
+    top: 0px;
+}
+.btn-outline{
+    position: static;
+    width: 154px;
+    height: 52px;
+    left: 195px;
+    top: 0px;
+/* light-text-color */
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 37px;
+    margin: 0px 10px;
+}
+button>.btn-outline>.btn-text{
+    position: static;
+    left: 23.38%;
+    right: 23.38%;
+    top: 28.85%;
+    bottom: 28.85%;
+}
+button>.btn-round>.btn-text{
+    position: static;
+    left: 19.46%;
+    right: 19.46%;
+    top: 28.85%;
+    bottom: 28.85%;
+    text-align: center;
+    margin: 0px 15px;
+}
+#png-cover{
+    position: static;
+    width: 443px;
+    height: 681px;
+    left: 33.5px;
+    top: 0px;
+    background: url(png-cover.1.png);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+.background{
+    position: absolute;
+    width: 1440px;
+    height: 700px;
+    left: 0px;
+    top: 0px;
+}
+.filter{
+    position: absolute;
+    height: 700px;
+    width: 1440px;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    border-radius: 0px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.hero-cover-5{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: url(#hero-cover-5.jpg);
+}
+/* Features-5 */
+.Features-5{
+    position: static;
+    width: 1440px;
+    height: 641px;
+    left: 0px;
+    top: 700px;
+/* dark-background-color */
+    background: #252B42;
+/* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.light-gray-1{
+    background: #FAFAFA;
+    border: 1px solid #E9E9E9;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+/* or 142% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+/* light-text-color */
+
+    color: #FFFFFF;
+}
+#feature-section{
+    position: static;
+    width: 445px;
+    height: 114px;
+    left: 123px;
+    top: 0px;
+}
+p{
+    position: static;
+    width: 470px;
+    height: 40px;
+    left: 110.5px;
+    top: 124px;
+/* paragraph */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+/* or 143% */
+    text-align: center;
+    letter-spacing: 0.2px;
+/* light-text-color */
+    color: #FFFFFF;
+/* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 10px 0px;   
+}
+h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+/* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.1px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+#feature-title2{
+    position: static;
+    width: 213px;
+    height: 24px;
+    left: 56px;
+    top: 79.53px;
+    color: #252B42;
+}

@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Roboto:wght@400;700&display=swap');
+body{
+    position: relative;
+    height: 2391px;
+    width: 2624px;
+    border-radius: 0px;
+}
+.thumbnail{
+    position: absolute;
+    height: 1588px;
+    width: 1797.4749755859375px;
+    left: 237px;
+    top: 108px;
+    border-radius: 0px;
+    background: linear-gradient(180deg, #000000 0%, rgba(255, 255, 255, 0) 100%), url(thumbnail.jpg), #FFFFFF;
+}
+.sources{
+    position: absolute;
+    height: 493px;
+    width: 2500px;
+    left: 66px;
+    top: 1898px;
+    border-radius: 0px;
+}
+.background{
+    height: 1588px;
+    width: 2235.7822265625px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    position: absolute;
+}
+.filter{
+    height: 1588px;
+    width: 1797.4749755859375px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(118, 118, 118, 0.465234) 71.35%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 0px;
+}
+.desktop{
+    position: absolute;
+    width: 995.52px;
+    height: 3025.29px;
+    left: calc(50% - 995.52px/2 - 0px);
+    top: 425.17px;
+
+    background: #FFFFFF;
+}
+.desktop>iframe{
+    width: 100%;
+    height: 38%;
+    left: 100%;
+    top: 100%;
+}
+.badges{
+    padding: 81px, 25px, 81px, 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 81.0961px 25.3425px;
+    position: absolute;
+    width: 164.54px;
+    height: 924.13px;
+    left: calc(50% - 164.54px/2 - 535.09px);
+    top: 505.37px;
+    background: #FFFFFF;
+    box-shadow: 0px 25.5478px 37.3391px rgba(0, 0, 0, 0.07);
+    border-radius: 261.972px;
+}
+.figma{
+    position: static;
+    width: 67.87px;
+    height: 100.72px;
+    left: 48.33px;
+    top: 81.1px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 52.5475px 0px;
+}
+.html{
+    position: static;
+    width: 98.53px;
+    height: 111.66px;
+    left: 33.01px;
+    top: 234.36px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 52.5475px 0px;
+}
+.css{
+    position: static;
+    width: 102.91px;
+    height: 113.85px;
+    left: 30.82px;
+    top: 398.57px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 52.5475px 0px;
+}
+.logos-bootstrap{
+    position: static;
+    width: 113.85px;
+    height: 113.85px;
+    left: 25.34px;
+    top: 564.97px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 52.5475px 0px;
+}
+.vscode-icons{
+    position: static;
+    width: 111.66px;
+    height: 111.66px;
+    left: 26.44px;
+    top: 731.37px;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    margin: 52.5475px 0px;
+}
+.Relvise{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 344.98px;
+    height: 91.95px;
+    left: calc(50% - 344.98px/2 - 0.69px);
+    top: 163.16px;
+}
+.Financen{
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 68.8118px;
+    line-height: 92px;
+    text-align: center;
+    letter-spacing: 0.286716px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 6.91337px;
+}
+.Figma-Consulting-Web-Page-Template{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 410.65px;
+    height: 68.44px;
+    left: calc(50% - 410.65px/2 - 5.88px);
+    top: 264.78px;
+}
+.finance-web-page{
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34.7482px;
+    line-height: 68px;
+    text-align: center;
+    letter-spacing: 0.282719px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 6.91337px;
+}
+.Footer{
+    position: absolute;
+    width: 98.74px;
+    height: 99px;
+    left: 2401px;
+    top: 0px;
+}
+.Contact{
+    position: absolute;
+    height: 393px;
+    width: 1301px;
+    left: 967px;
+    top: 0px;
+    border-radius: nullpx;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.193955px;
+    color: #252B42;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34.912px;
+    line-height: 41px;
+}
+.Resources{
+    position: absolute;
+    height: 400px;
+    width: 1301px;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.193955px;
+    color: #252B42;
+}

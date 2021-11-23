@@ -67,9 +67,80 @@ h1{
     line-height: 80px;
     letter-spacing: 0.2px;
 }
+h2{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
 h4{
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.2px;
 }
+.background{
+    position: absolute;
+    width: 1440px;
+    height: 700px;
+    left: 0px;
+    top: 0px;
+}
+.filter{
+    background: rgba(0, 0, 0, 0.5);
+}
+#hero-cover-5{
+    background-image: url(img/herocover5.png);
+    /* background: rgba(0, 0, 0, 0.5); */
+    
+}
+.navbar-style-2{
+    position: absolute;
+    width: 1322px;
+    height: 91px;
+    left: calc(50% - 1322px/2);
+    top: 0px;
+}
+.navbar-brand{
+    position: relative;
+    width: 187px;
+    height: 58px;
+    left: calc(50% - 187px/2 - 431.5px);
+    top: calc(50% - 58px/2 + 0.5px);
+}
+.navbar-brand>h3{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+}
+.collapse .navbar-collapse{
+    position: absolute;
+    width: 815px;
+    height: 58px;
+    left: calc(50% - 815px/2 + 110.5px);
+    top: 16px;
+}
+#nav-1{
+    position: absolute;
+    width: 280px;
+    height: 24px;
+    left: 0px;
+    top: calc(50% - 24px/2);
+
+}
+.navbar-toggler{
+    /* position: relative; */
+    visibility: hidden;
+    width: 24px;
+    height: 13.71px;
+    left: 1298px;
+    top: 39px;
+}
+.Header-4>.container>.row>.col-md-6>h4{
+    margin: 35px 0px;x
+}
+#headline-4{
+    margin-top: 87px;
+}
+

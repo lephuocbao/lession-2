@@ -4,12 +4,72 @@
     box-sizing: border-box;
 }
 body{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    position: relative;
-    width: 1440px;
-    height: 3992px;
+
+}
+.Header-4{
+    position: static;
+    background: #FAFAFA;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+#container-top{
+    width: 1322px;
+    height: 91px;
+    left: 59px;
+    top: 0px;
+    margin-bottom: 10px;
+}
+.btn-text{
+    position: static;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    /* text-align: center; */
+    letter-spacing: 0.2px;
+}
+.light-text-color{
+    color: #FFFFFF;
+}
+.primary-color{
+    background: #23A6F0;
+    border-radius: 5px;
+}
+.light-gray-1{
+    background: #FAFAFA;
+    border: 1px solid #E9E9E9;
+    box-sizing: border-box;
+    border-radius: 5px; 
+}
+.light-background-color{
     background: #FFFFFF;
+}
+.background-gradien-1{
+    background: linear-gradient(270deg, #D71489 -1.04%, #004788 100%);
+}
+.dark-background-color{
+    background: #252B42;
+}
+.disabled-element-color{
+    background: #8EC2F2;
+}
+.text-color{
+    color: #252B42;
+}
+h1 h2 h3 h4 h5 h6 {
+    font-family: Montserrat;
+    font-style: normal;
+}
+h1{
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+}
+h4{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
 }

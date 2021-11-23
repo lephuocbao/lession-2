@@ -25,13 +25,6 @@ body{
     background: #FAFAFA;
     font-family: 'Dancing Script', cursive;
     font-family: 'Montserrat', sans-serif;
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-    margin: 0px 0px;
-    
 }
 #container-top{
     width: 1322px;

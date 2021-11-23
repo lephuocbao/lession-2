@@ -47,21 +47,6 @@ body{
 
     position: static;
 }
-/* .Header-4>.col{
-    flex-direction: column;
-    margin-bottom: 20px;
-} */
-/* .col-md-4{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-
-    position: static;
-    top: 0px;
-    flex: none;
-    flex-grow: 0;
-} */
 .light-gray-1{
     background: #FAFAFA;
     border: 1px solid #E9E9E9;
@@ -92,19 +77,6 @@ h5{
     padding: 30px, 40px;
     top: 0px;
 }
-/* .icn{
-    position: static;
-    width: 48px;
-    height: 39.53px;
-    left: calc(50% - 48px/2);
-    top: 30px;
-    margin: 10px, 0px;
-} */
-/* .Header-4>.container>.row{
-    flex-direction: row;
-    margin: 0px, 0px;
-    padding: 0px;
-} */
 .background{
     position: absolute;
     width: 1440px;
@@ -585,20 +557,6 @@ p{
     flex-grow: 0;
     margin: 0px 0px;
 }
-/* .clients-2>.background{
-    position: absolute;
-    width: 1440px;
-    height: 77px;
-    left: 0px;
-    top: 262px;
-
-} */
-/* .clients-2>.container{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-} */
 .clients-2>.container>.row{
     display: flex;
     flex-direction: row;
@@ -630,10 +588,6 @@ p{
     align-items: center;
     padding: 20px 0px;
 }
-/* .clients-2>.container>.row>.col-md-2>.fa-brands{
-    position: static;
-    margin: 0px 0px;
-} */
 .clients-2>.container>.row-3>.card-item{
     display: flex;
     flex-direction: column;
